@@ -15,3 +15,14 @@
   background-size: cover;
   background-position: top right;
 }
+
+footer {
+  background-image: url(images/contact-form-background-shape-desktop.svg);
+  background-size: cover;
+  background-position: top left;
+}
+
+.footer-content {
+  background-image: url(images/contact-form-background-shapes.svg);
+  background-size: cover;
+}
