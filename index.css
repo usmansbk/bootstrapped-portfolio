@@ -1,0 +1,11 @@
+.headline-container {
+  background-image: url(images/header-background-desktop.svg);
+  background-size: cover;
+  background-position: bottom left;
+}
+
+.headline {
+  background-image: url(images/header-shapes-desktop.svg);
+  background-size: cover;
+  background-position: bottom left;
+}
