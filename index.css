@@ -9,3 +9,9 @@
   background-size: cover;
   background-position: bottom left;
 }
+
+.about {
+  background-image: url(images/base-about-myself.svg);
+  background-size: cover;
+  background-position: top right;
+}
