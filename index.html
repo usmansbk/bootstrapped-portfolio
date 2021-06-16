@@ -14,9 +14,12 @@
 
     <title>Software Developer Portfolio</title>
   </head>
-  <body class="bg-light">
+  <body class="bg-light" data-bs-spy="scroll" data-bs-target="#navbar">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <nav
+        id="navbar"
+        class="navbar navbar-expand-lg navbar-light bg-white fixed-top"
+      >
         <div class="container-fluid px-5">
           <a class="navbar-brand ms-5" href="/">
             <img src="images/logo.svg" alt="" />
@@ -38,7 +41,7 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#porfolio"
+                <a class="nav-link" aria-current="page" href="#portfolio"
                   >Portfolio</a
                 >
               </li>
@@ -98,7 +101,7 @@
         </section>
       </div>
 
-      <div class="container p-5">
+      <div id="portfolio" class="container p-5">
         <div class="row gy-5">
           <div class="card">
             <div class="row p-2">
